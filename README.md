@@ -1,5 +1,5 @@
 # smart-fish_feeder
-UCSI IDP IoT Project
+## UCSI IDP IoT Project
 
 Requirements:
 - Node.js
@@ -7,7 +7,7 @@ Requirements:
 - JDK v11.0
 - yarn (recommended)
 
-### Project Setup
+## Project Setup
 For setting up react native CLI environment go to:
 https://reactnative.dev/docs/environment-setup
 
