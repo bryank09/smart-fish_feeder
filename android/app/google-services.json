@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "124473808010",
+    "project_id": "iot-fish-feeder-386804",
+    "storage_bucket": "iot-fish-feeder-386804.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124473808010:android:1b52d5dd9fa068ddfe0973",
+        "android_client_info": {
+          "package_name": "com.iot_feeder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124473808010-kep5rs8pqji5vg8jb3iv2b8p072kccgl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iot_feeder",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "124473808010-e45la7p9vqf9bk7ndj75dusgin2mtbr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChN-mqxBuJTO0Usi09MTGvBEZRXdxgyzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124473808010-e45la7p9vqf9bk7ndj75dusgin2mtbr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

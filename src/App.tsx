@@ -31,7 +31,8 @@ import {
 import { Head } from './components/Head.js';
 import { Prototype } from './components/Prototype.js';
 import { Monitoring, Timer } from './components/DisplayPanel.js';
-import { Charts, Alarm } from './components/BottomSheet.js'
+import { Charts, Alarm } from './components/BottomSheet.js';
+import { Login } from './components/login.js'
 import Swiper from 'react-native-swiper';
 import BottomSheet from '@gorhom/bottom-sheet';
 import {
@@ -70,6 +71,7 @@ function App(): JSX.Element {
           break;
       }
     };
+    
     const { width, height } = Dimensions.get('window');
     return (
       <View style={{
@@ -100,7 +102,7 @@ function App(): JSX.Element {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <TouchableWithoutFeedback>
-          <ImageBackground source={require('./background_image.jpg')} resizeMode="cover">
+          {/* <ImageBackground source={require('./background_image.jpg')} resizeMode="cover">
             <GestureHandlerRootView style={{ flex: 1 }}>
               <Head />
               <Prototype />
@@ -111,11 +113,11 @@ function App(): JSX.Element {
                 snapPoints={snapPoints}
                 onChange={handleSheetChanges}
               >
-                {display === "monitoring" ? <Charts /> : <Alarm />}
+                {display == "monitoring" ? <Charts /> : <Alarm />}
               </BottomSheet>
             </GestureHandlerRootView>
-          </ImageBackground>
-
+          </ImageBackground> */}
+          <Login />
         </TouchableWithoutFeedback>
       </ScrollView>
     </SafeAreaView>
